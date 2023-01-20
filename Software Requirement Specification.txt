@@ -1,0 +1,129 @@
+﻿E-Cosmetic Store
+
+
+Document:
+System Requirement Specification Document
+
+
+Title:
+System Requirement Specification for E-Cosmetic Store
+
+
+Team: 
+Direct Customer, Indirect Customer, Architect,Business Analyst, Quality Assurance Team, System Analyst
+
+
+Objective (Purpose):
+
+Our E-Cosmetic Store web application is intended to provide online shopping facility of Cosmetic products to worldwide users.  This document will explain the different functional as well as nonfunctional requirements of the system, the interfaces of the system, what the system will do or how the system will interact with the external users, the constraints under which it will operate. This will give a clear idea on how the software should be developed by the development team for the end users. This SRS will provide a solid base or foundation for the project.
+
+
+
+Scope:
+The main goal of the project is to design a scalable and extensible  web application for managing the Online Cosmetics Selling. The system will be designed with the user-centric approach that will ensure that the user requirements mentioned in the documents must be full filled and must conforms to the required standards. The proposed software is multi-platform software such that it will work in all the operating systems and most of the browsers.
+
+
+Definitions:
+        OSS: Online Shopping System
+        QA:  Quality Assurance
+        Portal: Personalized Online Web Application
+        MIS: Management Information System
+        CRM: Customer Relation Management
+        BI:  Business Intelligence
+        KPI:Key Performance I
+        Dashboard: Personalized information presented using  BI techniques such grid, score card, graph, KPI
+
+
+Functional Requirements:
+
+Any anonymous User will be able to view different products available for sale. Any User will be able select product from categories available.
+Admin will be to track and maintain stock of products available for sale.
+Shopper will be able to update  book details which have been already added to book catalog.
+Cosmetic products listing will be provided based their category, sale, quantity,ratings,brands.
+Customer will be able to  add or remove products from shopping cart. System will maintain shopping cart for each consumer to maintain list of items selected by him/her. Customer will be able view all items from shopping cart. Shopping Cart will present selected product details,quantity, price and total. 
+Only registered users can process towards booking the product after successful registration.Registered users can shortlist the product & add them to the cart.
+Customer will be able process for Order placement.
+Registered Customers will be able place an order with the help of Shopping cart maintained by system. 
+BOD will be able to summary of orders been placed.BOD will get Business insight by observing  daily operations  with the of getting orders information.
+Customers will be provided options for payment such as through internet banking  or  UPI  or Online payment option.
+Customers will asked to submit their payment related information.They will be redirected to payment gateway for secure payment transaction.On successful payment processing using payment gateway system will notify consumer about transaction and order placement status.
+Customer will be able track order status. Customer will be able track deliver using unique dispatcher id presented.
+Customer will able to submit feedback about products they received. 
+Customer will be cancel his placed order within 24 hours. Customer will be able to update his/ her personal information. 
+Customer  will be to manage his profile maintained by system. Customer will be able change his credentials if required. 
+Customer will be notified about order status through  SMS, Email communication.
+Customer will get complete information about his orders, through a dashboard.
+Customer will be able to update his payment related information.
+System will present dashboard for Customers as well as Suppliers.
+Dashboard will provide information using graph, score cards, key performance indicators as well Grid data prestation.
+BOD will be informed about business operations through reports.
+Customer will be able get their purchase related information using Customer Dashboard.
+        
+NonFunctional Requirement:
+
+
+Security
+Registered Customer will allowed to place an order.        
+Each stakeholder will be to access system  through authentication process. Who are you ?
+System will provide access to  the content , operations using Role based security (Authorization) (Permissions based on Role)
+Using SSL in all transactions  which will be performed stakeholder. It would protect confidential information shared by system to stake holder of Shared by stakeholder to system.
+System will automatically log of  all stakeholder after some time due to inactiveness.
+System will block operations for inactive  stakeholder and would redirect for authentication.
+System  will internally maintain secure communication channel between Servers ( Web Servers, App Servers, database Server)
+Sensitive data will be always encrypted across communication.
+User proper firewall to protect servers from out side fishing, vulnerable attacks.
+
+
+Reliability
+The system will backup business data on regular basis and recover in short time duration to keep system operational.
+Continuous updates are maintained , continuous Administration is done to keep system operational.
+During peak hours system will maintain same user experience by managing load balancing .
+
+
+Availability
+uptime:   24* 7  available  99.999%
+        
+Maintainability:
+A Commercial database software will be used to maintain System data Persistence.
+A readymade Web Server will be installed to host online shopping portal (Web Site) to management server capabilities.
+IT operations team will easily monitor and configure System using Administrative tools provided by Servers.
+Separate environment will be maintained for system for isolation in  production, testing, and development.
+
+
+Portability:
+PDA: Portable Device Application
+System will provide portable User Interface ( HTML, CSS, JS) through  users will be able to access online shopping portal.
+System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP)
+
+
+Accessibility:
+only registered customer will be able to place an order after authentication.
+Admin team will be able to view daily, weekly, monthly, annual order records throgh customized dashboard.
+
+
+Durability:
+System will retain customer  shopping cart for 15 minutes  even though customer loose internet connection and join again.
+System will implement backup and recovery for retaining stake holders data, bussiness operation data and business data over time.
+
+
+Efficiency:
+on Festival season, maximum number of users  will place order, view products  with same response time.
+System will be able to manage all transactions with isolation.
+
+
+Modularity:
+System will designed and developed using reusable, independent or dependent business scenarios in the form of modules.
+These modules will be loosely coupled and highly cohesive.
+System will contain User Management , CosmeticProductsInventory ,Shopping Cart, Order Processing, Payment processing, Bill Modules.
+
+
+Scalability:
+System will be able  to  provide  consistent user experience to stake holder as well as visitors irrespective of load.
+
+
+Safety:        
+E-Cosmetic Store will be secure from malicious attack, fishing.
+E-Cosmetic Store functionalities are protected from outside with proper firewall configuration.
+E-Cosmetic Store will be always kept updated with latest anti-virus software.
+Business data will be backed up periodically to ensure safety of data using incremental back up strategy.
+Role based security will be applied for Application data and operations accessibility.
