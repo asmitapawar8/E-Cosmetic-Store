@@ -20,7 +20,7 @@ Our E-Cosmetic Store web application is intended to provide online shopping faci
 
 
 Scope:
-The main goal of the project is to design a scalable and extensible  web application for managing the Online Cosmetics Selling. The system will be designed with the user-centric approach that will ensure that the user requirements mentioned in the documents must be full filled and must conforms to the required standards. The proposed software is multi-platform software such that it will work in all the operating systems and most of the browsers.
+The main goal of the project is to design a scalable and extensible web application for managing the Online Cosmetic Products Selling. The system will be designed with the user-centric approach that will ensure that the user requirements mentioned in the documents must be full filled and must conforms to the required standards. The proposed software is multi-platform software such that it will work in all the operating systems and most of the browsers.
 
 
 Definitions:
@@ -36,39 +36,41 @@ Definitions:
 
 Functional Requirements:
 
-Any anonymous User will be able to view different products available for sale. Any User will be able select product from categories available.
-Admin will be to track and maintain stock of products available for sale.
-Shopper will be able to update  book details which have been already added to book catalog.
-Cosmetic products listing will be provided based their category, sale, quantity,ratings,brands.
-Customer will be able to  add or remove products from shopping cart. System will maintain shopping cart for each consumer to maintain list of items selected by him/her. Customer will be able view all items from shopping cart. Shopping Cart will present selected product details,quantity, price and total. 
-Only registered users can process towards booking the product after successful registration.Registered users can shortlist the product & add them to the cart.
-Customer will be able process for Order placement.
-Registered Customers will be able place an order with the help of Shopping cart maintained by system. 
-BOD will be able to summary of orders been placed.BOD will get Business insight by observing  daily operations  with the of getting orders information.
-Customers will be provided options for payment such as through internet banking  or  UPI  or Online payment option.
-Customers will asked to submit their payment related information.They will be redirected to payment gateway for secure payment transaction.On successful payment processing using payment gateway system will notify consumer about transaction and order placement status.
-Customer will be able track order status. Customer will be able track deliver using unique dispatcher id presented.
-Customer will able to submit feedback about products they received. 
-Customer will be cancel his placed order within 24 hours. Customer will be able to update his/ her personal information. 
-Customer  will be to manage his profile maintained by system. Customer will be able change his credentials if required. 
+Role- "Customer"
+
+Any anonymous User(Customer) will be able to view different products from various catagories available for sale.
+User will be able add any products in the shopping cart. Shopping Cart will present selected product details,quantity, price and total. 
+User will be able to  add or remove products from shopping cart. System will maintain shopping cart for each consumer to maintain list of items selected by him/her. 
+Only registered users can process towards booking the order after successful registration.
+Registered users will be able place an order with the help of Shopping cart maintained by system. 
+Only registered users can process towards booking the order after successful registration.
+User will be provided options for payment such as through internet banking  or  cash on delivery.
+Customer will be able to cancel his placed order before delivery date. 
 Customer will be notified about order status through  SMS, Email communication.
-Customer will get complete information about his orders, through a dashboard.
+Customer will get complete information about the orders, through a dashboard.
+Customer will be able to submit feedback of products they received. 
+Customers will be able to manage their profile maintained by system. Customer will be able to change his credentials,update their personal information if required. 
 Customer will be able to update his payment related information.
-System will present dashboard for Customers as well as Suppliers.
-Dashboard will provide information using graph, score cards, key performance indicators as well Grid data prestation.
-BOD will be informed about business operations through reports.
-Customer will be able get their purchase related information using Customer Dashboard.
+
+Role- "Admin"
+
+Admin will be able to track and maintain stock of products available for sale.
+Admin will be able to view summary of orders which have been placed.
+Admin will be to manage his profile maintained by system. Admin will be able change his credentials,update their personal information if required. 
+Admin will have access to activate/inactivate the existing customers.
+
+Product listing will be provided based their category, price,ratings,brands.
+
+Dashboard will provide information using graph, score cards, key performance indicators as well Grid data presentation.
+
         
 NonFunctional Requirement:
 
-
 Security
-Registered Customer will allowed to place an order.        
-Each stakeholder will be to access system  through authentication process. Who are you ?
+Only registered customers will be allowed to place an order.        
+Each stakeholder will have to access systemthrough authentication process. Who are you ?
 System will provide access to  the content , operations using Role based security (Authorization) (Permissions based on Role)
-Using SSL in all transactions  which will be performed stakeholder. It would protect confidential information shared by system to stake holder of Shared by stakeholder to system.
-System will automatically log of  all stakeholder after some time due to inactiveness.
-System will block operations for inactive  stakeholder and would redirect for authentication.
+Using SSL in all transactions  which will be performed stakeholder. It would protect confidential information shared by system to stake holder of shared by stakeholder to system.
 System  will internally maintain secure communication channel between Servers ( Web Servers, App Servers, database Server)
 Sensitive data will be always encrypted across communication.
 User proper firewall to protect servers from out side fishing, vulnerable attacks.
@@ -122,7 +124,7 @@ System will be able  to  provide  consistent user experience to stake holder as 
 
 
 Safety:        
-E-Cosmetic Store will be secure from malicious attack, fishing.
+E-Cosmetic Store will be secured from malicious attack, fishing.
 E-Cosmetic Store functionalities are protected from outside with proper firewall configuration.
 E-Cosmetic Store will be always kept updated with latest anti-virus software.
 Business data will be backed up periodically to ensure safety of data using incremental back up strategy.
